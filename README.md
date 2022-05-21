@@ -5,7 +5,7 @@ LuCI support
 ### Openwrt official SnapShots
 
 ```shell
-sed -i '$a src-git small https://github.com/zhoujinshi/luci-package' feeds.conf.default
+sed -i '$a src-git mepackages https://github.com/zhoujinshi/luci-packages' feeds.conf.default
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 make menuconfig
