@@ -1,4 +1,4 @@
-# luci-package
+# luci-packages
 
 LuCI support
 
