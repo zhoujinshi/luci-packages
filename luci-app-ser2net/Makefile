@@ -8,8 +8,6 @@ PKG_MAINTAINER:=cnbbx
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
-include $(INCLUDE_DIR)/package.mk
-
 define Package/luci-app-ser2net
     SECTION:=luci
     CATEGORY:=LuCI
