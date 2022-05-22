@@ -22,16 +22,4 @@ define Package/luci-app-ser2net/description
     This package contains LuCI configuration pages for ser2net.
 endef
 
-define Build/Prepare
-endef
-
-define Build/Configure
-endef
-
-define Build/Compile
-endef
-
-define Package/luci-app-ser2net/install
-endef
-
-$(eval $(call BuildPackage,luci-app-ser2net))
+include $(TOPDIR)/feeds/luci/luci.mk
